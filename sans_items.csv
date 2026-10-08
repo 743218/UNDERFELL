@@ -3,7 +3,7 @@
 0,HeartMode,0,,,,,,,
 0,TLPause,,,,,,,,
 
-0.25,SET,Loop,120,,,,,,
+0.25,SET,Loop,120,,,,,
 0,SUB,Loop,$Loop,1,,,,,,
 0,RND,Ang,360,,,,,,
 0,COS,X,$Ang,,,,,,
