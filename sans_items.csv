@@ -3,13 +3,7 @@
 0,HeartMode,0,,,,,,,
 0,TLPause,,,,,,,,
 
-
-
-
-
-
-
-0.4,SET,Loop,12,,,,,,
+0.25,SET,Loop,120,,,,,,
 0,SUB,Loop,$Loop,1,,,,,
 0,RND,Ang,360,,,,,,
 0,COS,X,$Ang,,,,,,
@@ -33,6 +27,7 @@
 0,SET,EndY,440,,,,,,
 0,ANGLE,Ang,$EndX,$EndY,$HeartX,$HeartY,,,
 0,GasterBlaster,1,$X,$Y,$EndX,$EndY,$Ang,0.66666,0.03333
+
 0,GetHeartPos,HeartX,HeartY,,,,,,
 0,ADD,EndX,$EndX,$HeartX,,,,,
 0,ADD,EndY,$EndY,$HeartY,,,,,
@@ -49,7 +44,5 @@
 0,ANGLE,Ang,$EndX,$EndY,$HeartX,$HeartY,,,
 0,GasterBlaster,1,$X,$Y,$EndX,$EndY,$Ang,0.66666,0.03333
 
-
-
-0.7,JMPNZ,13,$Loop,,,,,,
+0.25,JMPNZ,13,$Loop,,,,,
 2,EndAttack,,,,,,,,
