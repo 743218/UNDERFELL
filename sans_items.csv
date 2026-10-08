@@ -9,7 +9,7 @@
 
 
 
-0.1,SET,Loop,1000,,,,,,
+0.5,SET,Loop,1000,,,,,,
 0,SUB,Loop,$Loop,1,,,,,
 0,RND,Ang,360,,,,,,
 0,COS,X,$Ang,,,,,,
